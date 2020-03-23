@@ -8,6 +8,7 @@ class Overview extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view("landing");
+        //load view admin/Template.php
+        $this->load->view("admin/overview");
 	}
 }
